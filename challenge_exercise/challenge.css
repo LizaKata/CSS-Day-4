@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("Amazon\ Ember\ V2.ttf") format("truetype");
+  src: url("Amazon\ Ember\ Medium.ttf") format("truetype");
+  src: url("Amazon\ Ember\ Light.ttf") format("truetype");
+  src: url("Amazon\ Ember\ Heavy.ttf") format("truetype");
+  src: url("Amazon\ Ember\ Display.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 62.5% is like 10px */
+}
+
+body {
+  font-family: "Amazon Ember";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921;
+  height: 6.4rem;
+  padding: 0 3.6rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.searchbar {
+  background-color: #fff;
+  width: 80rem;
+  height: 3.8rem;
+  padding: 1rem 1rem 1rem 10rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.deliver-text {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.delivery-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.fa {
+  color: #fff;
+  scale: 200%;
+}
+
+.fa-search {
+  color: #131921;
+  scale: 180%;
+}
+
+.fa-bars {
+}
+
+.am-basics-btn {
+  background-color: #e6e6e6;
+  margin-right: 6rem;
+  padding: 1rem;
+  height: 3.8rem;
+  border: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  position: absolute;
+}
+
+.input {
+  position: relative;
+}
+
+.basics-btn {
+  color: #55555e;
+  font-size: 1rem;
+}
+
+.header-search-btn {
+  /* margin-left: -3rem; */
+  border: 0;
+  background-color: #febd69;
+  border-radius: 0 0.5rem 0.5rem 0;
+  height: 3.8rem;
+  width: 4rem;
+  position: absolute;
+  right: 0;
+}
+
+.wrap {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  /* display: inline-block; */
+  color: #a0a0a0;
+}
+
+/* Categories section */
+
+.categories-section {
+  display: flex;
+  align-items: center;
+  padding: 2rem 4.4rem;
+  height: 4rem;
+  background-color: #232f3e;
+}
+
+.categories {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.categories-text {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+/* Search results section */
+
+.search-results-section {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.8rem;
+  height: 4rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.search-results {
+  display: flex;
+  align-items: center;
+}
+
+.search-results-text {
+  font-size: 1.4rem;
+}
+
+/* Results */
+
+.results-section {
+  display: flex;
+  align-items: center;
+  padding: 3rem 1.8rem 2.2rem 1.8rem;
+  height: 4rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.results-heading {
+  font-size: 2.4rem;
+}
+
+.results-text {
+  font-size: 1.2rem;
+}
+
+/* Cards */
+
+.card-template {
+  background-color: #ffffff;
+  line-height: 1.8;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.text-wrap {
+  padding: 1rem 1.8rem;
+}
+
+.card-heading {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card1-img {
+  max-width: 30rem;
+}
+
+.price-flex {
+  display: flex;
+  gap: 7rem;
+  align-items: center;
+}
+
+.pricetag {
+  font-size: 3rem;
+}
+
+.delivery-text {
+  font-size: 1.4rem;
+}
+
+.shipping {
+  font-size: 1rem;
+}
+
+.buying-choices {
+  font-size: 1.3rem;
+}
+
+.amazon-brand-text {
+  font-size: 1.3rem;
+  color: #d58823;
+}
+
+.all-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  gap: 3rem;
+  margin: 3.6rem;
+}
+
+/* Imge scale effect */
+
+.card1-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.card1-img img:hover {
+  transform: scale(1.1);
+}
