@@ -31,11 +31,11 @@ body {
   align-items: center;
   background-color: #131921;
   height: 6.4rem;
-  padding: 0 3.6rem;
+  padding: 0 3.2rem;
 }
 
 .logo {
-  height: 4rem;
+  height: 3rem;
 }
 
 .searchbar {
@@ -137,7 +137,7 @@ body {
 .categories-section {
   display: flex;
   align-items: center;
-  padding: 2rem 4.4rem;
+  padding: 2rem 3.6rem;
   height: 4rem;
   background-color: #232f3e;
 }
@@ -192,7 +192,8 @@ body {
 }
 
 .results-heading {
-  font-size: 2.4rem;
+  font-size: 2rem;
+  color: black;
 }
 
 .results-text {
