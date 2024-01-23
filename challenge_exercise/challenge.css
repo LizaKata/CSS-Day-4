@@ -265,12 +265,12 @@ body {
 
 /* Imge scale effect */
 
-.card1-img img {
+.card1-img {
   display: block;
   width: 100%;
   transition: all 0.4s;
 }
 
-.card1-img img:hover {
+.card1-img:hover {
   transform: scale(1.1);
 }
